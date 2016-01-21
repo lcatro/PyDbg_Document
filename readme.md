@@ -37,6 +37,7 @@ Thank you for reading my noob english :).
 **- "Intelligent" memory derefencing.**
 **- Stack/SEH unwinding.**
 **- Etc...**
+
 ---
 ###def __init__ (self, ff=True, cs=False):
 **Set the default attributes. See the source if you want to modify the default creation values.**
@@ -44,6 +45,7 @@ Thank you for reading my noob english :).
 &nbsp;&nbsp;&nbsp;&nbsp;ff: (Optional, Def=True) Flag controlling whether or not pydbg attaches to forked processes
 `cs: Boolean`:
 &nbsp;&nbsp;&nbsp;&nbsp;cs: (Optional, Def=False) Flag controlling whether or not pydbg is in client/server (socket) mode
+
 ---
 ###def addr_to_dll (self, address):
 **Return the system DLL that contains the address specified.**
